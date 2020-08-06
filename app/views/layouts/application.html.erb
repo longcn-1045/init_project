@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= t (".title"), locale: :en %></title>
+    <title><%= yield(:title) %> | <%= t ".subtitle" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 

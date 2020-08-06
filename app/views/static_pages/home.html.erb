@@ -1,0 +1,11 @@
+<%= provide :title, t(".title") %>
+
+<%= link_to t(".en"), locale: "en" %>
+<%= link_to t(".vi"), locale: "vn" %>
+
+<h1><%= t ".title" %></h1>
+<p>
+  <%= t ".the_page" %>
+  <%= link_to t(".link_rails_tutorial"), Settings.home.link1 %>
+  <%= t ".same_app" %>
+</p>
