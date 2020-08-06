@@ -1,0 +1,20 @@
+vn:
+  layouts:
+    application:
+      subtitle: "Ví dụ Ruby on Rails"
+  static_pages:
+    help:
+      title: "Trang giúp đỡ"
+      get_help: "Truy cập vào"
+      see_the: "Để tìm sự tư vấn và"
+      rails_book: "Ruby on Rails Tutorial book"
+      link_rails_book: "trang Rails Tutorial Help"
+      vi: Tiếng Việt
+      en: Tiếng Anh
+    home:
+      title: "Trang chủ"
+      the_page: "Đây là trang chủ của"
+      same_app: "và bài tập mẫu"
+      link_rails_tutorial: "Ruby on Rails"
+      vi: Tiếng Việt
+      en: Tiếng Anh
