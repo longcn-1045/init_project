@@ -2,7 +2,6 @@ en:
   layouts:
     application:
       subtitle: "Ruby on Rails Tutorial Sample App"
-
   static_pages:
     help:
       title: "Help Page"
