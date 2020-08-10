@@ -2,6 +2,20 @@ vn:
   layouts:
     application:
       subtitle: "Ví dụ Ruby on Rails"
+      vi: Tiếng Việt
+      en: Tiếng Anh
+    footer:
+      subtitle: "Ví dụ Ruby on Rails"
+      news: Tin tức
+      about: Về ứng dụng
+      contact: Liên hệ
+      admin_name: Mai Cồ Ha Tồ
+      by: bởi
+    header:
+      subtitle: "Ví dụ Ruby on Rails"
+      home: Trang chủ
+      help: Giúp đỡ
+      login: Đăng nhập
   static_pages:
     help:
       title: "Trang giúp đỡ"
@@ -9,12 +23,13 @@ vn:
       see_the: "Để tìm sự tư vấn và"
       rails_book: "Ruby on Rails Tutorial book"
       link_rails_book: "trang Rails Tutorial Help"
-      vi: Tiếng Việt
-      en: Tiếng Anh
     home:
       title: "Trang chủ"
       the_page: "Đây là trang chủ của"
       same_app: "và bài tập mẫu"
       link_rails_tutorial: "Ruby on Rails"
-      vi: Tiếng Việt
-      en: Tiếng Anh
+      signup: "Đăng ký nhanh!"
+  users:
+    new:
+      signup: Đăng ký
+      signup_desc: Đây là trang đăng ký người dùng

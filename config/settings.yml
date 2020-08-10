@@ -1,4 +1,7 @@
 home:
-  link1: "https://www.railstutorial.org/"
+  link_rails: "https://www.railstutorial.org/"
 help:
-  link1: "https://www.railstutorial.org/help"
+  link_rails: "https://www.railstutorial.org/help"
+_footer:
+  link_rails: "https://www.railstutorial.org/help"
+  link_admin: https://www.michaelhartl.com/
