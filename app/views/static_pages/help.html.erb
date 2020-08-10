@@ -1,14 +1,11 @@
 <%= provide :title, t(".title") %>
 
-<%= link_to t(".en"), locale: "en" %>
-<%= link_to t(".vi"), locale: "vn" %>
-
 <h1><%= t ".title" %></h1>
   <p>
   <%= t ".get_help" %>
-  <%= link_to t(".rails_book"), Settings.help.link1 %>.
+  <%= link_to t(".rails_book"), Settings.help.link_rails %>.
   <%= t ".see_the" %>
-  <%= link_to Settings.help.link1 do %>
+  <%= link_to Settings.help.link_rails do %>
     <%= t ".link_rails_book" %>
     <em><%= t ".rails_book" %></em>
   <% end -%>.
