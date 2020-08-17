@@ -15,7 +15,8 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      flash[:success] = t ".not_found"
+      flash[:success] = t ".static_pages.welcome"
+      log_in @user
       redirect_to @user
     else
       flash.now[:danger] = t ".new.signup_failed"
