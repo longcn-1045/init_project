@@ -16,7 +16,13 @@ en:
       home: Home
       help: Help
       login: Log in
+      account: Account
+      users: Users
+      profile: Profile
+      settings: Settings
+      logout: Log out
   static_pages:
+    welcome: Welcome to Home page
     help:
       title: Help Page
       get_help: Get help on the Ruby on Rails Tutorial at the
@@ -35,7 +41,18 @@ en:
       signup: Sign up
       signup_desc: This will be a signup page for new users
       signup_failed: Signup is failed
-      confirmation: Confirmation
+      name: Name
+      email: Email
+      password: Password
+      password_confirmation: Password Confirmation
+  sessions:
+    new:
+      login: Log in
+      new_user?: New user?
+      signup_now: Sign up now!
+      email: Email
+      password: Password
   error_messages:
     the_form_contains: The form contains
     error: Error
+    invalid_email_password_combination: Invalid email/password combination

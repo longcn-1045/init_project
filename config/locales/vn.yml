@@ -16,7 +16,13 @@ vn:
       home: Trang chủ
       help: Giúp đỡ
       login: Đăng nhập
+      account: Tài khoản
+      users: Danh sách
+      profile: Tài khoản
+      settings: Cài đặt
+      logout: Đăng xuất
   static_pages:
+    welcome: Chào mừng đến trang chủ
     help:
       title: Trang giúp đỡ
       get_help: Truy cập vào
@@ -35,7 +41,18 @@ vn:
       signup: Đăng ký
       signup_desc: Đây là trang đăng ký người dùng
       signup_failed: Đăng ký thất bại
-      confirmation: Xác nhận
+      name: Tên
+      email: Email
+      password: Mật khẩu
+      password_confirmation: Xác nhận mật khẩu
+  sessions:
+    new:
+      login: Đăng nhập
+      new_user?: Chưa có tài khoản
+      signup_now: Đăng ký ngay!
+      email: Email
+      password: Mật khẩu
   error_messages:
     the_form_contains: Trong form chứa
     error: Lỗi
+    invalid_email_password_combination: Lỗi email và password không hợp lệ
