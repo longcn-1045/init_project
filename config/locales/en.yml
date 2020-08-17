@@ -1,35 +1,41 @@
 en:
   layouts:
     application:
-      subtitle: "Ruby on Rails Tutorial Sample App"
+      subtitle: Ruby on Rails Tutorial Sample App
       vi: Vietnamese
       en: English
     footer:
-      subtitle: "Ruby on Rails Tutorial Sample App"
+      subtitle: Ruby on Rails Tutorial Sample App
       news: News
       about: About
       contact: Contact
       admin_name: Michael Hartl
       by: by
     header:
-      subtitle: "Ruby on Rails Tutorial Sample App"
+      subtitle: Ruby on Rails Tutorial Sample App
       home: Home
       help: Help
       login: Log in
   static_pages:
     help:
-      title: "Help Page"
-      get_help: "Get help on the Ruby on Rails Tutorial at the"
-      see_the: "To get help on this sample app, see the"
-      rails_book: "Ruby on Rails Tutorial book"
-      link_rails_book: "Rails Tutorial Help page"
+      title: Help Page
+      get_help: Get help on the Ruby on Rails Tutorial at the
+      see_the: To get help on this sample app, see the
+      rails_book: Ruby on Rails Tutorial book
+      link_rails_book: Rails Tutorial Help page
     home:
-      title: "Home Page"
-      the_page: "This is the home page for the"
-      same_app: "sample application."
-      link_rails_tutorial: "Ruby on Rails Tutorial"
-      signup: "Sign up now!"
+      title: Home Page
+      the_page: This is the home page for the
+      same_app: sample application.
+      link_rails_tutorial: Ruby on Rails Tutorial
+      signup: Sign up now!
   users:
+    not_found: Not founded!
     new:
       signup: Sign up
       signup_desc: This will be a signup page for new users
+      signup_failed: Signup is failed
+      confirmation: Confirmation
+  error_messages:
+    the_form_contains: The form contains
+    error: Error

@@ -1,35 +1,41 @@
 vn:
   layouts:
     application:
-      subtitle: "Ví dụ Ruby on Rails"
+      subtitle: Ví dụ Ruby on Rails
       vi: Tiếng Việt
       en: Tiếng Anh
     footer:
-      subtitle: "Ví dụ Ruby on Rails"
+      subtitle: Ví dụ Ruby on Rails
       news: Tin tức
       about: Về ứng dụng
       contact: Liên hệ
       admin_name: Mai Cồ Ha Tồ
       by: bởi
     header:
-      subtitle: "Ví dụ Ruby on Rails"
+      subtitle: Ví dụ Ruby on Rails
       home: Trang chủ
       help: Giúp đỡ
       login: Đăng nhập
   static_pages:
     help:
-      title: "Trang giúp đỡ"
-      get_help: "Truy cập vào"
-      see_the: "Để tìm sự tư vấn và"
-      rails_book: "Ruby on Rails Tutorial book"
-      link_rails_book: "trang Rails Tutorial Help"
+      title: Trang giúp đỡ
+      get_help: Truy cập vào
+      see_the: Để tìm sự tư vấn và
+      rails_book: Ruby on Rails Tutorial book
+      link_rails_book: trang Rails Tutorial Help
     home:
-      title: "Trang chủ"
-      the_page: "Đây là trang chủ của"
-      same_app: "và bài tập mẫu"
-      link_rails_tutorial: "Ruby on Rails"
-      signup: "Đăng ký nhanh!"
+      title: Trang chủ
+      the_page: Đây là trang chủ của
+      same_app: và bài tập mẫu
+      link_rails_tutorial: Ruby on Rails
+      signup: Đăng ký nhanh!
   users:
+    not_found: Không tìm thấy người dùng
     new:
       signup: Đăng ký
       signup_desc: Đây là trang đăng ký người dùng
+      signup_failed: Đăng ký thất bại
+      confirmation: Xác nhận
+  error_messages:
+    the_form_contains: Trong form chứa
+    error: Lỗi

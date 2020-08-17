@@ -6,5 +6,6 @@ Rails.application.routes.draw do
     get "/help", to: "static_pages#help", as: "help"
 
     get "/signup", to: "users#new"
+    resources :users, only: %i(new create show)
   end
 end
