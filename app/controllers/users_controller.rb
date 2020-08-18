@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_action :check_login, only: :show
+
   def show
     @user = User.find_by id: params[:id]
     return if @user
@@ -28,5 +30,12 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit User::PERMIT_ATTRIBUTES
+  end
+
+  def check_login
+    return if logged_in?
+
+    flash[:danger] = t ".not_login"
+    redirect_to root_url
   end
 end
