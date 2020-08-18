@@ -16,11 +16,11 @@ en:
       home: Home
       help: Help
       login: Log in
-      account: Account
       users: Users
+      account: Account
       profile: Profile
       settings: Settings
-      logout: Log out
+      logout: Logout
   static_pages:
     welcome: Welcome to Home page
     help:
@@ -42,10 +42,27 @@ en:
       signup: Sign up
       signup_desc: This will be a signup page for new users
       signup_failed: Signup is failed
+    form:
       name: Name
       email: Email
       password: Password
       password_confirmation: Password Confirmation
+    edit:
+      edit_user: Edit User
+      save_changes: Save Changes
+      change: Change
+      update_your_profile: Update Your Profile
+    update:
+      profile_updated: Profile is updated
+      failed_update_profile: Profile is not updated
+    index:
+      all_users: All Users
+    user:
+      delete: Delete
+      you_sure: You Sure?
+    destroy:
+      user_deleted: User is deleted!
+      fail_user_deleted: User is not deleted!
   sessions:
     new:
       login: Log in
@@ -54,8 +71,11 @@ en:
       email: Email
       password: Password
       remember_me: Remember me on this computer
+    create:
+      invalid_email_password_combination: Invalid email/password combination
+      login_success: Login Success
+    destroy:
+      logout: Log out!
   error_messages:
     the_form_contains: The form contains
     error: Error
-    invalid_email_password_combination: Invalid email/password combination
-    not_login: Not login!

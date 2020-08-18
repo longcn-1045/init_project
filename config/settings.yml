@@ -12,3 +12,12 @@ regex:
   email_max_length: 255
   name_max_length: 50
   password_min_length: 6
+
+user:
+  per_page: 5
+
+session:
+  remember_me: "1"
+
+users:
+  thumb: "https://gravatar.com/emails"
