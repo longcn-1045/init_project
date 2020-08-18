@@ -41,7 +41,6 @@ vn:
     new:
       signup: Đăng ký
       signup_desc: Đây là trang đăng ký người dùng
-      signup_failed: Đăng ký thất bại
     form:
       name: Tên
       email: Email
@@ -63,6 +62,11 @@ vn:
     destroy:
       user_deleted: Người dùng đã bị xóa!
       fail_user_deleted: Lỗi xảy ra khi xóa!
+    create:
+      please_check_email: Kiểm tra email để kích hoạt tài khoản
+      signup_failed: Đăng ký thất bại
+    logged_in_user:
+      please_login: Chưa đăng nhập
   sessions:
     new:
       login: Đăng nhập
@@ -74,8 +78,19 @@ vn:
     create:
       invalid_email_password_combination: Lỗi email và password không hợp lệ
       login_success: Đăng nhập thành công
+      account_not_activated: Kiểm tra email để kích hoạt tài khoản
     destroy:
       logout: Đã đăng xuất!
   error_messages:
     the_form_contains: Trong form chứa
     error: Lỗi
+  account_activations:
+    edit:
+      account_activated: Kích hoạt tài khoản!
+      invalid_account_link: Đường link không hợp lệ
+  user_mailer:
+     account_activation: Kích hoạt tài khoản
+     sample_app: Dự án mẫu
+     hi: Xin chào
+     welcome_to_sample_app: Ấn vào link để kích hoạt tài khoản
+     activate: Kích hoạt
