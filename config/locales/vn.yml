@@ -17,8 +17,8 @@ vn:
       help: Giúp đỡ
       login: Đăng nhập
       account: Tài khoản
-      users: Danh sách
-      profile: Tài khoản
+      users: Danh Sách
+      profile: Thông tin cá nhân
       settings: Cài đặt
       logout: Đăng xuất
   static_pages:
@@ -42,10 +42,27 @@ vn:
       signup: Đăng ký
       signup_desc: Đây là trang đăng ký người dùng
       signup_failed: Đăng ký thất bại
+    form:
       name: Tên
       email: Email
       password: Mật khẩu
       password_confirmation: Xác nhận mật khẩu
+    edit:
+      edit_user: Cập nhật người dùng
+      save_changes: Cập nhật
+      change: Thay đổi
+      update_your_profile: Cập nhật thông tin
+    update:
+      profile_updated: Profile is updated
+      failed_update_profile: Profile is not updated
+    index:
+      all_users: Danh Sách Người Dùng
+    user:
+      delete: Xóa
+      you_sure: Bạn có chắc chắn xóa
+    destroy:
+      user_deleted: Người dùng đã bị xóa!
+      fail_user_deleted: Lỗi xảy ra khi xóa!
   sessions:
     new:
       login: Đăng nhập
@@ -54,8 +71,11 @@ vn:
       email: Email
       password: Mật khẩu
       remember_me: Ghi nhớ đăng nhập
+    create:
+      invalid_email_password_combination: Lỗi email và password không hợp lệ
+      login_success: Đăng nhập thành công
+    destroy:
+      logout: Đã đăng xuất!
   error_messages:
     the_form_contains: Trong form chứa
     error: Lỗi
-    invalid_email_password_combination: Lỗi email và password không hợp lệ
-    not_login: Chưa đăng nhập
