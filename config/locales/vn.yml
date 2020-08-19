@@ -75,22 +75,46 @@ vn:
       email: Email
       password: Mật khẩu
       remember_me: Ghi nhớ đăng nhập
+      forgot_password: Quên mật khẩu
     create:
       invalid_email_password_combination: Lỗi email và password không hợp lệ
       login_success: Đăng nhập thành công
       account_not_activated: Kiểm tra email để kích hoạt tài khoản
     destroy:
       logout: Đã đăng xuất!
-  error_messages:
-    the_form_contains: Trong form chứa
-    error: Lỗi
+  shared:
+    error_messages:
+      the_form_contains: Trong form chứa
+      error: Lỗi
   account_activations:
     edit:
       account_activated: Kích hoạt tài khoản!
       invalid_account_link: Đường link không hợp lệ
   user_mailer:
-     account_activation: Kích hoạt tài khoản
-     sample_app: Dự án mẫu
-     hi: Xin chào
-     welcome_to_sample_app: Ấn vào link để kích hoạt tài khoản
-     activate: Kích hoạt
+    account_activation: Kích hoạt tài khoản
+    sample_app: Dự án mẫu
+    hi: Xin chào
+    welcome_to_sample_app: Ấn vào link để kích hoạt tài khoản
+    activate: Kích hoạt
+    password_reset: Đổi mật khẩu
+  password_resets:
+    email_not_found: Email không tìm thấy
+    password_reset: Đặt lại password
+    click_link: Ấn vào link để thay đổi mật khẩu
+    expire_time: Link này sẽ quá hạn trong 2 giờ tới
+    warning: Nếu bạn không muốn thay đổi mật khẩu thì không cần clink vào link và trở lại để đăng nhập với mật khẩu cũ
+    create:
+      send_email: Gửi email để đổi mật khẩu
+    update:
+      cant_empty: không thể bỏ trống
+      password_reset: Đổi mật khẩu thành công
+      password_reset_failed: Password chưa dược reset
+    check_expiration:
+      password_expired: Password reset đã quá hạn
+    edit:
+      password: Mật khẩu
+      password_confirmation: Nhập lại mật khẩu
+      update_password: Cập nhật
+    new:
+      forgot_password: Quên mật khẩu
+      submit: Nộp

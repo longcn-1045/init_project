@@ -65,7 +65,8 @@ en:
     create:
       please_check_email: Please check your email to activate your account.
       signup_failed: Signup is failed
-    logged_in_user: Please Login
+    logged_in_user:
+      please_login: Please Login
   sessions:
     new:
       login: Log in
@@ -74,22 +75,46 @@ en:
       email: Email
       password: Password
       remember_me: Remember me on this computer
+      forgot_password: Forgot password
     create:
       invalid_email_password_combination: Invalid email/password combination
       login_success: Login Success
       account_not_activated: Check your email for the activation link.
     destroy:
       logout: Log out!
-  error_messages:
-    the_form_contains: The form contains
-    error: Error
+  shared:
+    error_messages:
+      the_form_contains: The form contains
+      error: Error
   account_activations:
     edit:
       account_activated: Account activated!
       invalid_account_link: Invalid activation link
   user_mailer:
-     account_activation: Account activation
-     sample_app: Sample App
-     hi: Hi
-     welcome_to_sample_app: Click on the link below to activate your account
-     activate: Activate
+    account_activation: Account activation
+    sample_app: Sample App
+    hi: Hi
+    welcome_to_sample_app: Click on the link below to activate your account
+    activate: Activate
+    password_reset: Password Reset
+  password_resets:
+    email_not_found: Email không tìm thấy
+    password_reset: Đặt lại password
+    click_link: To reset your password click the link below
+    expire_time: This link will expire in two hours.
+    warning: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
+    create:
+      send_email: Email sent with password reset instructions
+    update:
+      cant_empty: can't be empty
+      password_reset: Password has been reset.
+      password_reset_failed: Password hasn't been reset
+    check_expiration:
+      password_expired: Password reset has expired.
+    edit:
+      password: Password
+      password_confirmation: Password Confirmation
+      update_password: Update Password
+    new:
+      forgot_password: Forgot password
+      submit: Submit
