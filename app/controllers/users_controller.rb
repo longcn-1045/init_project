@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.page(params[:page]).per Settings.user.per_page
+    @users = User.is_activated.page(params[:page]).per Settings.user.per_pag
   end
 
   def show; end
@@ -18,11 +18,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t ".static_pages.welcome"
-      log_in @user
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".please_check_email"
+      redirect_to root_url
     else
-      flash.now[:danger] = t ".new.signup_failed"
+      flash.now[:danger] = t ".signup_failed"
       render :new
     end
   end

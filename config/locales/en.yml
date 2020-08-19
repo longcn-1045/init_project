@@ -41,7 +41,6 @@ en:
     new:
       signup: Sign up
       signup_desc: This will be a signup page for new users
-      signup_failed: Signup is failed
     form:
       name: Name
       email: Email
@@ -63,6 +62,10 @@ en:
     destroy:
       user_deleted: User is deleted!
       fail_user_deleted: User is not deleted!
+    create:
+      please_check_email: Please check your email to activate your account.
+      signup_failed: Signup is failed
+    logged_in_user: Please Login
   sessions:
     new:
       login: Log in
@@ -74,8 +77,19 @@ en:
     create:
       invalid_email_password_combination: Invalid email/password combination
       login_success: Login Success
+      account_not_activated: Check your email for the activation link.
     destroy:
       logout: Log out!
   error_messages:
     the_form_contains: The form contains
     error: Error
+  account_activations:
+    edit:
+      account_activated: Account activated!
+      invalid_account_link: Invalid activation link
+  user_mailer:
+     account_activation: Account activation
+     sample_app: Sample App
+     hi: Hi
+     welcome_to_sample_app: Click on the link below to activate your account
+     activate: Activate
