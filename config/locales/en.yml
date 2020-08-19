@@ -35,6 +35,7 @@ en:
       same_app: sample application.
       link_rails_tutorial: Ruby on Rails Tutorial
       signup: Sign up now!
+      micropost_feed: Micropost Feed
   users:
     not_found: Not founded!
     not_login: Not login!
@@ -67,6 +68,8 @@ en:
       signup_failed: Signup is failed
     logged_in_user:
       please_login: Please Login
+    show:
+      microposts: Microposts
   sessions:
     new:
       login: Log in
@@ -86,6 +89,12 @@ en:
     error_messages:
       the_form_contains: The form contains
       error: Error
+    micropost_form:
+      content_placeholde: Compose new micropost...
+      submit: Post
+    user_info:
+      view_profile: view my profile
+      micropost: micropost
   account_activations:
     edit:
       account_activated: Account activated!
@@ -118,3 +127,20 @@ en:
     new:
       forgot_password: Forgot password
       submit: Submit
+  microposts:
+    image_type_message: must be a valid image format
+    image_size_message: should be less than 5MB
+    alert_size_exceeded: Image too large
+    create:
+      micropost_created: Micropost created
+      micropost_create_failed: Micropost create failed
+    destroy:
+      micropost_deleted: Micropost deleted
+      micropost_delete_failed: Micropost delete failed
+    micropost:
+      posted: Posted
+      ago: ago
+      delete: Delete
+      you_sure: You sure?
+    correct_user:
+      not_found: Not found

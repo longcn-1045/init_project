@@ -35,6 +35,7 @@ vn:
       same_app: và bài tập mẫu
       link_rails_tutorial: Ruby on Rails
       signup: Đăng ký nhanh!
+      micropost_feed: Bài viết
   users:
     not_found: Không tìm thấy người dùng
     not_login: Chưa đăng nhập
@@ -67,6 +68,8 @@ vn:
       signup_failed: Đăng ký thất bại
     logged_in_user:
       please_login: Chưa đăng nhập
+    show:
+      microposts: Bài viết
   sessions:
     new:
       login: Đăng nhập
@@ -86,6 +89,12 @@ vn:
     error_messages:
       the_form_contains: Trong form chứa
       error: Lỗi
+    micropost_form:
+      content_placeholde: Nhập nội dung bài viết
+      submit: Đăng
+    user_info:
+      view_profile: xem thông tin cá nhân
+      micropost: bài viết
   account_activations:
     edit:
       account_activated: Kích hoạt tài khoản!
@@ -118,3 +127,20 @@ vn:
     new:
       forgot_password: Quên mật khẩu
       submit: Nộp
+  microposts:
+    image_type_message: phải đúng format của
+    image_size_message: nên nhỏ hơn 5 MB
+    alert_size_exceeded: Lớn hơn 5 MB
+    create:
+      micropost_created: Bài viết được tạo
+      micropost_create_failed: Bài viết chưa được tạo
+    destroy:
+      micropost_deleted: Bài viết bị xóa
+      micropost_delete_failed: Bài viết chưa bị xóa
+    micropost:
+      posted: Được đăng
+      ago: trước
+      delete: Xóa
+      you_sure: Bạn có chắc chắn xóa
+    correct_user:
+      not_found: Không tìm thấy

@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
       if @user.activated?
         log_in @user
         params[:session][:remember_me] == Settings.session.remember_me ? remember(@user) : forget(@user)
-        flash[:danger] = t ".login_success"
+        flash[:success] = t ".login_success"
         redirect_back_or @user
       else
         flash[:warning] = t ".account_not_activated"
