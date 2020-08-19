@@ -21,3 +21,6 @@ session:
 
 users:
   thumb: "https://gravatar.com/emails"
+
+email:
+  expire_time: 2

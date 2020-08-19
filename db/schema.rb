@@ -1,4 +1,4 @@
-ActiveRecord::Schema.define(version: 2020_08_14_061456) do
+ActiveRecord::Schema.define(version: 2020_08_13_043145) do
 
   create_table "active_storage_attachments", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
     t.string "name", null: false
