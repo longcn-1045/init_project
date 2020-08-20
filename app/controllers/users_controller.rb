@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.is_activated.page(params[:page]).per Settings.user.per_pag
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.micropost.per_page
+  end
 
   def new
     @user = User.new

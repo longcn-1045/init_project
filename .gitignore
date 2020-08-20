@@ -46,6 +46,9 @@ yarn-debug.log*
 #Ignore database.yml
 /config/database.yml
 
+#Ignore database.yml
+/config/credentials.yml.enc
+
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
@@ -54,3 +57,5 @@ config/environments/*.local.yml
 .framgia-ci-result.temp.yml
 
 /config/application.yml
+
+/storage

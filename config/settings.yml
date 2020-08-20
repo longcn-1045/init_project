@@ -1,26 +1,26 @@
 home:
   link_rails: "https://www.railstutorial.org/"
-
 help:
   link_rails: "https://www.railstutorial.org/help"
-
 _footer:
   link_rails: "https://www.railstutorial.org/help"
   link_admin: https://www.michaelhartl.com/
-
 regex:
   email_max_length: 255
   name_max_length: 50
   password_min_length: 6
-
 user:
   per_page: 5
-
+micropost:
+  per_page: 5
+  content_max_lenght: 140
+  image_type_in: "image/jpeg image/gif image/png"
+  image_size: 5
+  img_limit: 500
+  image_type_accept: "image/jpeg, image/gif, image/png"
 session:
   remember_me: "1"
-
 users:
   thumb: "https://gravatar.com/emails"
-
 email:
   expire_time: 2
