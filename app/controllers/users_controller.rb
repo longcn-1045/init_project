@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.is_activated.page(params[:page]).per Settings.user.per_pag
+    @users = User.is_activated.page(params[:page]).per Settings.user.per_page
   end
 
   def show

@@ -5,6 +5,14 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
 
+  def find_user
+    @user = User.find_by id: params[:user_id]
+    return if @user
+
+    flash[:danger] = t ".not_found"
+    redirect_to root_url
+  end
+
   private
 
   def set_locale

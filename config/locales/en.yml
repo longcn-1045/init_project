@@ -4,6 +4,8 @@ en:
       subtitle: Ruby on Rails Tutorial Sample App
       vi: Vietnamese
       en: English
+      find_user:
+        not_found: Not founded
     footer:
       subtitle: Ruby on Rails Tutorial Sample App
       news: News
@@ -70,6 +72,13 @@ en:
       please_login: Please Login
     show:
       microposts: Microposts
+    follow:
+      follow: Follow
+    unfollow:
+      unfollow: Unfollow
+    show_follow:
+      view_profile: view my profile
+      micropost: micropost
   sessions:
     new:
       login: Log in
@@ -95,6 +104,9 @@ en:
     user_info:
       view_profile: view my profile
       micropost: micropost
+    stats:
+      following: following
+      followers: followers
   account_activations:
     edit:
       account_activated: Account activated!
@@ -143,4 +155,10 @@ en:
       delete: Delete
       you_sure: You sure?
     correct_user:
-      not_found: Not found
+      not_found: "Not found"
+  following:
+    title: Following
+  followers:
+    title: Followers
+  relationships:
+    action_fail: Action Failed
