@@ -44,18 +44,18 @@ yarn-debug.log*
 /test
 
 #Ignore database.yml
-/config/database.yml
+# /config/database.yml
 
 #Ignore database.yml
-/config/credentials.yml.enc
+# /config/credentials.yml.enc
 
-config/settings.local.yml
-config/settings/*.local.yml
-config/environments/*.local.yml
+# config/settings.local.yml
+# config/settings/*.local.yml
+# config/environments/*.local.yml
 
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 
-/config/application.yml
+# /config/application.yml
 
 /storage

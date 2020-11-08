@@ -1,0 +1,6 @@
+host: "localhost:3000"
+mail_user_name: "a3236dbfeb67c6"
+mail_user_password: "5eab4dab685328"
+mail_address: "smtp.mailtrap.io"
+mail_domain: "smtp.mailtrap.io"
+mail_port: "587"
