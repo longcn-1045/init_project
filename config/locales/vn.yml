@@ -4,6 +4,8 @@ vn:
       subtitle: Ví dụ Ruby on Rails
       vi: Tiếng Việt
       en: Tiếng Anh
+    find_user:
+      not_found: Không tìm thấy
     footer:
       subtitle: Ví dụ Ruby on Rails
       news: Tin tức
@@ -70,6 +72,13 @@ vn:
       please_login: Chưa đăng nhập
     show:
       microposts: Bài viết
+    follow:
+      follow: Follow
+    unfollow:
+      unfollow: Unfollow
+    show_follow:
+      view_profile: xem thông tin cá nhân
+      micropost: bài viết
   sessions:
     new:
       login: Đăng nhập
@@ -95,6 +104,9 @@ vn:
     user_info:
       view_profile: xem thông tin cá nhân
       micropost: bài viết
+    stats:
+      following: người đang theo dõi
+      followers: người theo dõi
   account_activations:
     edit:
       account_activated: Kích hoạt tài khoản!
@@ -144,3 +156,9 @@ vn:
       you_sure: Bạn có chắc chắn xóa
     correct_user:
       not_found: Không tìm thấy
+  following:
+    title: Theo dõi
+  followers:
+    title: Người theo dõi
+  relationships:
+    action_fail: Lỗi
